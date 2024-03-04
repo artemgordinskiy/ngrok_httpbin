@@ -1,0 +1,9 @@
+version: 2
+authtoken:
+tunnels:
+  httpbin:
+    proto: http
+    addr: httpbin:80
+log_level: info
+log_format: logfmt
+log: stdout
